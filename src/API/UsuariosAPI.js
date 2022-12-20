@@ -1,4 +1,5 @@
-const url = 'http://localhost:5000/usuarios/';
+// const url = 'http://localhost:5000/usuarios/';
+const url = 'https://proyectopapeleria-backend.onrender.com/usuarios/';
 
 export async function listarUsuarios() {
     const res = await fetch(url);
