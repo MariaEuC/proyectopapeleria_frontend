@@ -1,5 +1,5 @@
-const url = 'http://localhost:5000/personas/';
-// const url = 'https://proyectopapeleria-backend.onrender.com/personas/';
+// const url = 'http://localhost:5000/personas/';
+const url = 'https://proyectopapeleria-backend.onrender.com/personas/';
 
 export async function listarPersonas() {
     const res = await fetch(url);

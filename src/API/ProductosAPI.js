@@ -1,5 +1,5 @@
-const url = 'http://localhost:5000/productos/';
-// const url = 'https://proyectopapeleria-backend.onrender.com/productos/';
+// const url = 'http://localhost:5000/productos/';
+const url = 'https://proyectopapeleria-backend.onrender.com/productos/';
 
 export async function listarProductos() {
     const res = await fetch(url);
