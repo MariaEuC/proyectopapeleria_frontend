@@ -83,6 +83,7 @@ function FormUsuarios(props) {
               </select>
             </div>
           </div>
+
           <div className='col-md-6'>
             <label className='form-label'>Correo:</label>
             <input className='form-control' type="text" name="correo" value={usuario.persona.correo} onChange={(e) => handleChangePersona(e)} />

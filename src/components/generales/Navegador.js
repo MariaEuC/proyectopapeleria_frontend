@@ -5,9 +5,10 @@ function Navegador() {
         <header>
             <nav>
                 <ul className='nav nav-tabs'>
-                    <li><a className='nav-link' href='/'>Home</a></li>
-                    <li><a className='nav-link' href='/personas'>Personas</a></li>
-                    <li><a className='nav-link' href='/usuarios'>Usuarios</a></li>
+                    <li className='nave-item'><a className='nav-link active' href='/'>Home</a></li>
+                    <li className='nave-item'><a className='nav-link active' href='/personas'>Personas</a></li>
+                    <li className='nave-item'><a className='nav-link active' href='/usuarios'>Usuarios</a></li>
+                    <li className='nave-item'><a className='nav-link active' href='/productos'>Productos</a></li>
                 </ul>
 
 
